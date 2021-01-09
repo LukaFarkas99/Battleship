@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T17:36:04.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="YeKAcwbwtsrR-oxVccFT" version="14.1.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-09T20:18:10.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="FOqT0A-uq-D3kviyGtxZ" version="14.1.9" type="github" pages="4">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,6 +68,41 @@
       <root>
         <mxCell id="apERpVCSCKu2Zn8mHZ7R-0" />
         <mxCell id="apERpVCSCKu2Zn8mHZ7R-1" parent="apERpVCSCKu2Zn8mHZ7R-0" />
+        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="apERpVCSCKu2Zn8mHZ7R-1">
+          <mxGeometry x="410" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="mzT_BcQpgGXY0Yv1gkW8-2" parent="apERpVCSCKu2Zn8mHZ7R-1" target="mzT_BcQpgGXY0Yv1gkW8-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-4" value="Prvi igrač rasporedi brodove" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="apERpVCSCKu2Zn8mHZ7R-1">
+          <mxGeometry x="365" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="mzT_BcQpgGXY0Yv1gkW8-4" parent="apERpVCSCKu2Zn8mHZ7R-1" target="mzT_BcQpgGXY0Yv1gkW8-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-6" value="Drugi igrač rasporedi brodove" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="apERpVCSCKu2Zn8mHZ7R-1">
+          <mxGeometry x="365" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="mzT_BcQpgGXY0Yv1gkW8-6" parent="apERpVCSCKu2Zn8mHZ7R-1" target="mzT_BcQpgGXY0Yv1gkW8-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-8" value="Igra postavi prvog igrača za gađanje" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="apERpVCSCKu2Zn8mHZ7R-1">
+          <mxGeometry x="365" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="mzT_BcQpgGXY0Yv1gkW8-8" parent="apERpVCSCKu2Zn8mHZ7R-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-10" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="apERpVCSCKu2Zn8mHZ7R-1">
+          <mxGeometry x="410" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
