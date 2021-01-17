@@ -70,3 +70,13 @@ class Igrac(object):
     def brodJePotopljen(self, naziv):
         self.__brodoviPotopljeni = naziv
 
+ class Covjek(Igrac):
+
+    def __init__(self, ime):
+        super(Covjek, self).__init__(ime)
+
+class Racunalo(Igrac):
+
+    def __init__(self):
+        super(Racunalo, self).__init__('GLaDOS')
+
