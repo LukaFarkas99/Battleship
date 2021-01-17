@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-17T15:44:18.198Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="oj-3JOQah5q91HlHZgIc" version="14.2.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-01-17T15:45:19.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="M_HS2HrmTefL-y-qG92z" version="14.2.4" type="github" pages="8">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -571,6 +571,14 @@
         <mxCell id="XXgZ2ynLAYOVW970bQQL-9" value="&amp;lt;&amp;lt;View&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dZpmQazALO4UfswGv-21-1">
           <mxGeometry x="660" y="218" width="40" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TYmt-stsI4RWUwSDr7DX" name="Dijagram klasa modela Battleship">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="F_FeLEc2oUxPUADSeGks-0" />
+        <mxCell id="F_FeLEc2oUxPUADSeGks-1" parent="F_FeLEc2oUxPUADSeGks-0" />
       </root>
     </mxGraphModel>
   </diagram>
