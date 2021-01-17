@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-17T18:43:43.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="9BzpCFYty-1gUFlKqkAe" version="14.2.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-17T18:50:37.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="5XvNja7YIdkk1Wr7iHBN" version="14.2.4" type="github" pages="8">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -636,7 +636,7 @@
         <mxCell id="LxeR1w_McBqgbgY1zoax-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="LxeR1w_McBqgbgY1zoax-1" vertex="1">
           <mxGeometry y="26" width="180" height="8" as="geometry" />
         </mxCell>
-        <object label="+__init__(self, ime)&#xa;+__str__(self)&#xa;&lt;&lt;get&gt;&gt;ime(self)&#xa;&lt;&lt;get,set&gt;&gt;brodoviZaPostavljanje(self)&#xa;imaBrodovaZaPostavljanje(self)&#xa;brodZaPostaviti(self, izbor)&#xa;brodJePotopljen(self, naziv)" __init__="__init__(self, ime)" __str__="__str__(self)" imaBrodovaZaPostavljanje="imaBrodovaZaPostavljanje(self)" brodZaPostaviti="brodZaPostaviti(self, izbor)" brodJePotopljen="brodJePotopljen(self, naziv)" ime="property, get" brodoviZaPostavljanje="property, get, set" id="LxeR1w_McBqgbgY1zoax-4">
+        <object label="+__init__(self, ime)&#xa;+__str__(self)&#xa;&lt;&lt;get&gt;&gt;ime(self)&#xa;&lt;&lt;get,set&gt;&gt;brodoviZaPostavljanje(self)&#xa;+imaBrodovaZaPostavljanje(self)&#xa;+brodZaPostaviti(self, izbor)&#xa;+brodJePotopljen(self, naziv)" __init__="__init__(self, ime)" __str__="__str__(self)" imaBrodovaZaPostavljanje="imaBrodovaZaPostavljanje(self)" brodZaPostaviti="brodZaPostaviti(self, izbor)" brodJePotopljen="brodJePotopljen(self, naziv)" ime="property, get" brodoviZaPostavljanje="property, get, set" id="LxeR1w_McBqgbgY1zoax-4">
           <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LxeR1w_McBqgbgY1zoax-1" vertex="1">
             <mxGeometry y="34" width="180" height="116" as="geometry" />
           </mxCell>
@@ -653,9 +653,11 @@
         <mxCell id="LxeR1w_McBqgbgY1zoax-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="LxeR1w_McBqgbgY1zoax-5" vertex="1">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="LxeR1w_McBqgbgY1zoax-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LxeR1w_McBqgbgY1zoax-5" vertex="1">
-          <mxGeometry y="34" width="160" height="26" as="geometry" />
-        </mxCell>
+        <object label="+__init__(self)" __init__="__init__(self)" id="LxeR1w_McBqgbgY1zoax-8">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LxeR1w_McBqgbgY1zoax-5" vertex="1">
+            <mxGeometry y="34" width="160" height="26" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="LxeR1w_McBqgbgY1zoax-25" value="&amp;lt;&amp;lt;Model&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="43CZ3Kzv6pUHv9P-4Cqv-5" vertex="1">
           <mxGeometry x="30" width="40" height="20" as="geometry" />
         </mxCell>
@@ -668,9 +670,11 @@
         <mxCell id="Bs5DxLrW0G8s1oM7Pxnh-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Bs5DxLrW0G8s1oM7Pxnh-1">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Bs5DxLrW0G8s1oM7Pxnh-3" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Bs5DxLrW0G8s1oM7Pxnh-1">
-          <mxGeometry y="34" width="160" height="26" as="geometry" />
-        </mxCell>
+        <object label="+__init__(self,ime)" __init__="__init__(self, ime)" id="Bs5DxLrW0G8s1oM7Pxnh-3">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Bs5DxLrW0G8s1oM7Pxnh-1">
+            <mxGeometry y="34" width="160" height="26" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="Bs5DxLrW0G8s1oM7Pxnh-4" value="&amp;lt;&amp;lt;Model&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Bs5DxLrW0G8s1oM7Pxnh-0">
           <mxGeometry x="70" width="40" height="20" as="geometry" />
         </mxCell>
