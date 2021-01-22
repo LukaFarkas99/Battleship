@@ -92,4 +92,4 @@ class PrikazIgre(object):
             ime = input("Unesi igraca ")
             if ime.strip():
                 print("#"*50)
-                return ime.strip()
+                return ime
