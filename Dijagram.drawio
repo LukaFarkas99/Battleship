@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-22T16:45:20.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="rHcossNV7MVogjCSdWo-" version="14.2.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-01-22T19:21:58.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="lllTlnwgvad7VPdwS0Dl" version="14.2.6" type="github" pages="9">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -686,16 +686,16 @@
       <root>
         <mxCell id="-69-ZK_c8R92ONLEp-Li-0" />
         <mxCell id="-69-ZK_c8R92ONLEp-Li-1" parent="-69-ZK_c8R92ONLEp-Li-0" />
-        <mxCell id="sAhPjlrabLX9m14X-B_u-0" value="" style="group;fillColor=#FFFFFF;" vertex="1" connectable="0" parent="-69-ZK_c8R92ONLEp-Li-1">
-          <mxGeometry x="150" y="120" width="160" height="150" as="geometry" />
+        <mxCell id="sAhPjlrabLX9m14X-B_u-0" value="" style="group;" parent="-69-ZK_c8R92ONLEp-Li-1" vertex="1" connectable="0">
+          <mxGeometry x="140" y="130" width="160" height="150" as="geometry" />
         </mxCell>
         <object label="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Prikaz igre&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ prikaziPocetakIgre(self)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ unesiIgraca()&lt;/p&gt;" id="sAhPjlrabLX9m14X-B_u-1">
-          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#99FFFF;" vertex="1" parent="sAhPjlrabLX9m14X-B_u-0">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#99FFFF;" parent="sAhPjlrabLX9m14X-B_u-0" vertex="1">
             <mxGeometry y="30" width="160" height="90" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="sAhPjlrabLX9m14X-B_u-2" value="&amp;lt;&amp;lt;View&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sAhPjlrabLX9m14X-B_u-0">
-          <mxGeometry x="65" width="40" height="20" as="geometry" />
+        <mxCell id="sAhPjlrabLX9m14X-B_u-2" value="&amp;lt;&amp;lt;View&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sAhPjlrabLX9m14X-B_u-0" vertex="1">
+          <mxGeometry x="60" y="10" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
