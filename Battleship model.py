@@ -79,4 +79,17 @@ class Racunalo(Igrac):
 
     def __init__(self):
         super(Racunalo, self).__init__('GLaDOS')
+        
+class PrikazIgre(object):
 
+    def prikaziPocetakIgre(self):
+        print("#"*50)
+        print("#"*20 +"BATTLESHIP" + "#"*20)
+        print("#"*50)
+
+    def unesiIgraca(self):
+        while True:
+            ime = input("Unesi igraca ")
+            if ime.strip():
+                print("#"*50)
+                return ime.strip()
