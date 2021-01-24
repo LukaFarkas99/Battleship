@@ -399,30 +399,30 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                 #ispisati plocu za gadjati da se otprilike vidi kako izgleda
                 #Prikaz.ispis_ploce(igrac.ploca) 
                 print('Zasad gadjana polja su')
-                for ele in Igra.gadjanaPolja1:
+                for ele in self.gadjanaPolja1:
                     print(ele)
                 #idemo bez provjere za unos polja zasad
                 polje = input("Unesi polje za gadjati: ")
-                Igra.gadjanaPolja1.append(polje)
+                self.gadjanaPolja1.append(polje)
                 poljeF = [ string for string in self.igracDrugi.ploca if polje in self.igracDrugi.ploca ]
                 #sada provjerava jel pogodjeno il promaseno
                 for ele in poljeF:
                     if 'm' in ele:
                         print('Pogodjen je mali brod racunala')
-                        Igra.mali_r+=1
-                        if Igra.mali_r ==2: #cisto gledamo da je dva puta pogodio malog na ploci
+                        self.mali_r+=1
+                        if self.mali_r ==2: #cisto gledamo da je dva puta pogodio malog na ploci
                             print('Potopljen je mali brod racunala')
                             igrac.brodJePotopljen('mali')
                     elif 's' in ele:
                         print('Pogodjen je srednji brod racunala')
-                        Igra.srednji_r+=1
-                        if Igra.srednji_r ==3:
+                        self.srednji_r+=1
+                        if self.srednji_r ==3:
                             print('Potopljen je srednji brod racunala')
                             igrac.brodJePotopljen('srednji')
                     elif 'v' in ele:
                         print('Pogodjen je veliki brod racunala')
-                        Igra.veliki_r+=1
-                        if veliki_r ==4:
+                        self.veliki_r+=1
+                        if self.veliki_r ==4:
                             print('Potopljen je veliki brod racunala')
                             igrac.brodJePotopljen('veliki')
                             
@@ -435,33 +435,33 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                 #samo treba pripaziti da se ne ponovi polje koje je vec gadjano
                 broj = random.randrange(0,24)
                 while True:
-                    if broj in Igra.iskoristeni_brojevi:
+                    if broj in self.iskoristeni_brojevi:
                         broj = random.randrange(0,24)
                     else:
-                        Igra.iskoristeni_brojevi.append(broj)
+                        self.iskoristeni_brojevi.append(broj)
                         break
                 
                 polje = igrac.ploca[broj]
-                Igra.gadjanaPolja2.append(polje)
+                self.gadjanaPolja2.append(polje)
                 poljeF = [ string for string in self.igracPrvi.ploca if polje in string ]
                 #sada provjerava jel pogodjeno il promaseno
                 for ele in poljeF:
                     if 'm' in ele:
                         print('Pogodjen je mali brod racunala')
-                        Igra.mali_c+=1
-                        if Igra.mali_c ==2:
+                        self.mali_c+=1
+                        if self.mali_c ==2:
                             print('Potopljen je mali brod racunala')
                             igrac.brodJePotopljen('mali')
                     elif 's' in ele:
                         print('Pogodjen je srednji brod racunala')
-                        Igra.srednji_c+=1
-                        if Igra.srednji_c ==3:
+                        self.srednji_c+=1
+                        if self.srednji_c ==3:
                             print('Potopljen je srednji brod racunala')
                             igrac.brodJePotopljen('srednji')
                     elif 'v' in ele:
                         print('Pogodjen je veliki brod racunala')
-                        Igra.veliki_c+=1
-                        if Igra.veliki_c ==4:
+                        self.veliki_c+=1
+                        if self.veliki_c ==4:
                             print('Potopljen je veliki brod racunala')
                             igrac.brodJePotopljen('veliki')
                             
@@ -475,9 +475,9 @@ a zatim odaberi smjer u kojem želiš postaviti brod
 
     def provjeraPobjednika():
         if self.igracPrvi.brodoviSuPotopljeni() == 1:
-            return igracDrugi.ime
+            return self.igracDrugi.ime
         else:
-            return igracPrvi.ime
+            return self.igracPrvi.ime
         
         
                     
