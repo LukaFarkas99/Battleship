@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T10:56:29.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="qTgGF4QoW2gy-sU1h6_2" version="14.2.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-01-24T10:57:35.934Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="KPIAut5qdZyBi4lKvQzB" version="14.2.4" type="github" pages="10">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -505,7 +505,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dZpmQazALO4UfswGv-21-16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Igra&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __init__(prikaz = None)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#E6D0DE;" parent="dZpmQazALO4UfswGv-21-1" vertex="1">
+        <mxCell id="dZpmQazALO4UfswGv-21-16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Igra&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#E6D0DE;" parent="dZpmQazALO4UfswGv-21-1" vertex="1">
           <mxGeometry x="400" y="232" width="160" height="102" as="geometry" />
         </mxCell>
         <mxCell id="dZpmQazALO4UfswGv-21-17" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;" parent="dZpmQazALO4UfswGv-21-1" source="dZpmQazALO4UfswGv-21-4" target="dZpmQazALO4UfswGv-21-16" edge="1">
