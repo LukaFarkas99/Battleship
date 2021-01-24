@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T18:54:23.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="6OwHMtjnNXxpRyFDTpWK" version="14.2.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-01-24T18:57:41.098Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="2wZDpuROaViHzttkI8Rx" version="14.2.7" type="github" pages="10">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_mE0Gat9z1YqofICLdKb" name="Activity: Unos igrača">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="632" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ocSYI3KIZju1cx2uxM8I-0" />
         <mxCell id="ocSYI3KIZju1cx2uxM8I-1" parent="ocSYI3KIZju1cx2uxM8I-0" />
@@ -201,7 +201,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i42zV5t7z0DlAsn9zdxP" name="Activity: Raspoređivanje brodova">
-    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="632" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="apERpVCSCKu2Zn8mHZ7R-0" />
         <mxCell id="apERpVCSCKu2Zn8mHZ7R-1" parent="apERpVCSCKu2Zn8mHZ7R-0" />
@@ -213,7 +213,7 @@
             <mxPoint x="425" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-4" value="Prvi igrač rasporedi brodove" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="apERpVCSCKu2Zn8mHZ7R-1" vertex="1">
+        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-4" value="Prvi igrač rasporedi brodove" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#E6D0DE;strokeColor=#ff0000;" parent="apERpVCSCKu2Zn8mHZ7R-1" vertex="1">
           <mxGeometry x="365" y="160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mzT_BcQpgGXY0Yv1gkW8-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="apERpVCSCKu2Zn8mHZ7R-1" source="mzT_BcQpgGXY0Yv1gkW8-4" target="mzT_BcQpgGXY0Yv1gkW8-6" edge="1">
@@ -221,7 +221,7 @@
             <mxPoint x="425" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-6" value="Drugi igrač rasporedi brodove" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="apERpVCSCKu2Zn8mHZ7R-1" vertex="1">
+        <mxCell id="mzT_BcQpgGXY0Yv1gkW8-6" value="Drugi igrač rasporedi brodove" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#E6D0DE;strokeColor=#ff0000;" parent="apERpVCSCKu2Zn8mHZ7R-1" vertex="1">
           <mxGeometry x="365" y="280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mzT_BcQpgGXY0Yv1gkW8-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="apERpVCSCKu2Zn8mHZ7R-1" source="mzT_BcQpgGXY0Yv1gkW8-6" target="mzT_BcQpgGXY0Yv1gkW8-8" edge="1">
@@ -244,7 +244,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Vq4a_JPAsvXUs6rB26hr" name="Activity: Gađanje brodova">
-    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="632" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="snWAESu3wQaQj8bQ94sy-0" />
         <mxCell id="snWAESu3wQaQj8bQ94sy-1" parent="snWAESu3wQaQj8bQ94sy-0" />
@@ -408,7 +408,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b9i66wF3J6dN92FWZ2AU" name="Activity: Proglašenje pobjednika">
-    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="632" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="6dMO4nUxJzyiBfLNcqeT-0" />
         <mxCell id="6dMO4nUxJzyiBfLNcqeT-1" parent="6dMO4nUxJzyiBfLNcqeT-0" />
@@ -701,7 +701,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hoG26-EPt1IKhTN66mYz" name="Dijagram klasa kontrolera Bettleship">
-    <mxGraphModel dx="509" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="DCYBu0IyIFyRCiDOBL3W-0" />
         <mxCell id="DCYBu0IyIFyRCiDOBL3W-1" parent="DCYBu0IyIFyRCiDOBL3W-0" />
