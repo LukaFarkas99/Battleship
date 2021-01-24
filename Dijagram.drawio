@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T19:05:20.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="EVB6q4mySCGHvzNMWV7g" version="14.2.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-01-24T19:33:18.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="oN13u-P7Z03-HPaZ104l" version="14.2.7" type="github" pages="10">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
-    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="509" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
             <mxPoint x="375" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WyER6WKlKvxL-8R68GmU-4" value="Raspoređivanje brodova&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Igranje%20potapanja%20bodova%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22260%22%20y%3D%22110%22%20width%3D%22140%22%20height%3D%2270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#E6D0DE;strokeColor=#ff0000;" parent="9JtUEKH2HQr9pTNVLQUo-1" vertex="1">
+        <mxCell id="WyER6WKlKvxL-8R68GmU-4" value="Raspoređivanje brodova&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Igranje%20potapanja%20bodova%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22260%22%20y%3D%22110%22%20width%3D%22140%22%20height%3D%2270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFC0;strokeColor=#ff0000;" parent="9JtUEKH2HQr9pTNVLQUo-1" vertex="1">
           <mxGeometry x="315" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WyER6WKlKvxL-8R68GmU-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="9JtUEKH2HQr9pTNVLQUo-1" source="WyER6WKlKvxL-8R68GmU-4" edge="1">
@@ -97,7 +97,7 @@
             <mxPoint x="375" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WyER6WKlKvxL-8R68GmU-9" value="Gađanje brodova" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#E6D0DE;strokeColor=#ff0000;" parent="9JtUEKH2HQr9pTNVLQUo-1" vertex="1">
+        <mxCell id="WyER6WKlKvxL-8R68GmU-9" value="Gađanje brodova" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFC0;strokeColor=#ff0000;" parent="9JtUEKH2HQr9pTNVLQUo-1" vertex="1">
           <mxGeometry x="320" y="520" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WyER6WKlKvxL-8R68GmU-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9JtUEKH2HQr9pTNVLQUo-1" source="WyER6WKlKvxL-8R68GmU-9" target="WyER6WKlKvxL-8R68GmU-6" edge="1">
