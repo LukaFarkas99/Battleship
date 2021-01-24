@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T10:55:16.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="BH8u6CXCqnzQK9mo6RK0" version="14.2.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-01-24T10:56:29.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="qTgGF4QoW2gy-sU1h6_2" version="14.2.4" type="github" pages="10">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="80" y="120" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X9FTrpauw9Sq85jZie8o-6" value="Igranje potapanja brodova" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="110" width="140" height="70" as="geometry" />
+          <mxGeometry x="260" y="115" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="X9FTrpauw9Sq85jZie8o-7" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="X9FTrpauw9Sq85jZie8o-1" target="X9FTrpauw9Sq85jZie8o-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -56,7 +56,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rs0sGWx0MR4FlPed3_t9" name="Activity: Igranje potapanja brodova">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="9JtUEKH2HQr9pTNVLQUo-0" />
         <mxCell id="9JtUEKH2HQr9pTNVLQUo-1" parent="9JtUEKH2HQr9pTNVLQUo-0" />
@@ -125,7 +125,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_mE0Gat9z1YqofICLdKb" name="Activity: Unos igrača">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ocSYI3KIZju1cx2uxM8I-0" />
         <mxCell id="ocSYI3KIZju1cx2uxM8I-1" parent="ocSYI3KIZju1cx2uxM8I-0" />
@@ -201,7 +201,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i42zV5t7z0DlAsn9zdxP" name="Activity: Raspoređivanje brodova">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="apERpVCSCKu2Zn8mHZ7R-0" />
         <mxCell id="apERpVCSCKu2Zn8mHZ7R-1" parent="apERpVCSCKu2Zn8mHZ7R-0" />
@@ -244,7 +244,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Vq4a_JPAsvXUs6rB26hr" name="Activity: Gađanje brodova">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="snWAESu3wQaQj8bQ94sy-0" />
         <mxCell id="snWAESu3wQaQj8bQ94sy-1" parent="snWAESu3wQaQj8bQ94sy-0" />
