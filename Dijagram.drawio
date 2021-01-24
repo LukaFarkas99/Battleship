@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T21:16:00.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="zwWiZ5C3EmtqhaoEwsRO" version="14.2.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-01-24T21:38:52.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="s34QWCzKlRW_0NUUiWpl" version="14.2.7" type="github" pages="10">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -682,20 +682,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wdDGl5IIh6llIO7dVfId" name="Dijagram klasa pogleda Battleship">
-    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="-69-ZK_c8R92ONLEp-Li-0" />
         <mxCell id="-69-ZK_c8R92ONLEp-Li-1" parent="-69-ZK_c8R92ONLEp-Li-0" />
         <mxCell id="sAhPjlrabLX9m14X-B_u-0" value="" style="group;" parent="-69-ZK_c8R92ONLEp-Li-1" vertex="1" connectable="0">
-          <mxGeometry x="140" y="130" width="160" height="150" as="geometry" />
+          <mxGeometry x="140" y="130" width="160" height="170" as="geometry" />
         </mxCell>
-        <object label="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Prikaz&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+__init__(self, red)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ prikaziPocetakIgre(self)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ unesiIgraca(self)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ispis_ploce(self,ploca)&lt;/p&gt;" __init__="__init__(self, ime)" prikaziPocetakIgre="prikaziPocetakIgre(self)" unesiIgraca="unesiIgraca(self)" ispis_ploce="ispis_ploce(self,ploca)" id="sAhPjlrabLX9m14X-B_u-1">
+        <object label="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Prikaz&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+__init__(self, red)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ prikaziPocetakIgre(self)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ unesiIgraca(self)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ispis_ploce(self,ploca)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+proglasenjePobjednika(self,ime)&lt;/p&gt;" __init__="__init__(self, ime)" prikaziPocetakIgre="prikaziPocetakIgre(self)" unesiIgraca="unesiIgraca(self)" ispis_ploce="ispis_ploce(self,ploca)" proglasenjePobjednika="proglasenjePobjednika(self,ime)" id="sAhPjlrabLX9m14X-B_u-1">
           <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#99FFFF;" parent="sAhPjlrabLX9m14X-B_u-0" vertex="1">
-            <mxGeometry y="30" width="160" height="90" as="geometry" />
+            <mxGeometry y="34" width="160" height="124.66666666666666" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="sAhPjlrabLX9m14X-B_u-2" value="&amp;lt;&amp;lt;View&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sAhPjlrabLX9m14X-B_u-0" vertex="1">
-          <mxGeometry x="60" y="10" width="40" height="20" as="geometry" />
+          <mxGeometry x="60" y="11.333333333333332" width="40" height="22.666666666666664" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
