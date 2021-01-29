@@ -103,9 +103,8 @@ class Racunalo(Igrac):
 
 class Prikaz(object):
 
-    def __init__(self,red): #red = tko baca
-        self.red=red
-
+    def __init__(self): 
+        pass
     def prikaziPocetakIgre(self):
         print("#"*50)
         print("#"*19 +" BATTLESHIP " + "#"*19)
@@ -121,7 +120,7 @@ class Prikaz(object):
     def ispis_ploce(self,ploca):
         br=0
         s=""
-        print("Ploča od "+self.red+"\n")
+        print("\n")
         for i in ploca:
             br+=1
             s+="\t" +i#[0:2]
@@ -207,13 +206,13 @@ a zatim odaberi smjer u kojem želiš postaviti brod
   
     def postavljanje_malog_broda(self):
         while(1):
-            m_brod=input("Unesi 2 polja odvojena zarezom npr: >>A1,A2<< ili >>a1,b1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude izlazan kao u primjeru!!\n")
+            m_brod=input("Unesi 2 polja odvojena zarezom npr: >>A1,A2<< ili >>a1,b1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
             while(1):
                 if(len(m_brod)==5):
                     if(m_brod[2]==','):
                         break
                 print("Popravi unos")
-                m_brod=input("Unesi 2 polja odvojena zarezom npr >>A1,A2<< ili >>a1,b1<< i pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude izlazan kao u primjeru!!\n")
+                m_brod=input("Unesi 2 polja odvojena zarezom npr >>A1,A2<< ili >>a1,b1<< i pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
             m_brod=m_brod.upper()
             m=m_brod.split(',')
             prvo_p=m[0]
@@ -253,7 +252,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
             
     def postavljanje_srednjeg_broda(self):
         while(1):
-            s_brod=input("Unesi 3 polja odvojena zarezom npr: >>A1,A2,A3<< ili >>a1,b1,c1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude izlazan kao u primjeru!!\n")
+            s_brod=input("Unesi 3 polja odvojena zarezom npr: >>A1,A2,A3<< ili >>a1,b1,c1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
             while(1):
                 if(len(s_brod)==8):
                     if(s_brod[2]==',' and s_brod[5]==',' ):
@@ -265,7 +264,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                             if el not in self.covjek.zauzeta_polja.keys():
                                 b+=1
                                 self.covjek.zauzeta_polja[el]=1
-                                print("Nije zauzet: "+ el)
+                                #print("Nije zauzet: "+ el)
                                 if (b==3):
                                     break
                                     
@@ -277,14 +276,14 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                             
                         for i in range(3-br):
                             a=list(self.covjek.zauzeta_polja.keys())[-1]
-                            print("obrisano je "+str(a))
+                            #print("obrisano je "+str(a))
                             self.covjek.zauzeta_polja.pop(a)
                         if(len(self.covjek.zauzeta_polja)==5):
                             break
                 for i,j in self.covjek.zauzeta_polja.items():
                     print(i,j)            
                 print("Popravi unos")
-                s_brod=input("Unesi 3 polja odvojena zarezom npr >>A1,A2,A3<< ili >>a1,b1,c1<< i pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude izlazan kao u primjeru!!\n")
+                s_brod=input("Unesi 3 polja odvojena zarezom npr >>A1,A2,A3<< ili >>a1,b1,c1<< i pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
             s_brod=s_brod.upper()
             s=s_brod.split(',')
             prvo_p=s[0]
@@ -322,7 +321,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
         
     def postavljanje_velikog_broda(self):
         while(1):
-            v_brod=input("Unesi 4 polja odvojena zarezom npr: >>A1,A2,A3,A4<< ili >>a1,b1,c1,d1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude izlazan kao u primjeru!!\n")
+            v_brod=input("Unesi 4 polja odvojena zarezom npr: >>A1,A2,A3,A4<< ili >>a1,b1,c1,d1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
             while(1):
                 if(len(v_brod)==11):
                     if(v_brod[2]==',' and v_brod[5]==',' and v_brod[8]==','):
@@ -334,7 +333,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                             if el not in self.covjek.zauzeta_polja.keys():
                                 b+=1
                                 self.covjek.zauzeta_polja[el]=1
-                                print("Nije zauzet: "+el)
+                                #print("Nije zauzet: "+el)
                                 if (b==4):
                                     break
                                     
@@ -346,14 +345,14 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                             
                         for i in range(4-br):
                             a=list(self.covjek.zauzeta_polja.keys())[-1]
-                            print("obrisano je "+str(a))
+                            #print("obrisano je "+str(a))
                             self.covjek.zauzeta_polja.pop(a)
                         if(len(self.covjek.zauzeta_polja)==9):
                             break
                 for i,j in self.covjek.zauzeta_polja.items():
                     print(i,j)
                 print("Popravi unos")
-                v_brod=input("Unesi 4 polja odvojena zarezom npr >>A1,A2,A3,A4<< ili >>a1,b1,c1,d1<< i pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude izlazan kao u primjeru!!\n")
+                v_brod=input("Unesi 4 polja odvojena zarezom npr >>A1,A2,A3,A4<< ili >>a1,b1,c1,d1<< i pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
             v_brod=v_brod.upper()
             v=v_brod.split(',')
             prvo_p=v[0]
@@ -391,7 +390,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
             br+=1
         self.prikaz.ispis_ploce(self.covjek.ploca)
 
-     #postavljanej brodova za racunalo
+#postavljanej brodova za racunalo
 
 
     def postavljanje_malog_broda_racunalo(self):
@@ -428,8 +427,8 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                 if i==j:
                     self.racunalo.ploca[br]+="m"
             br+=1
-        self.prikaz.ispis_ploce(self.racunalo.ploca)
-        print("Mali postavljen")
+        #self.prikaz.ispis_ploce(self.racunalo.ploca)
+        print("\n!!!\tPC je postavio mali brod\t!!!\n")
 
     def postavljanje_srednjeg_broda_racunalo(self):
 
@@ -466,12 +465,12 @@ a zatim odaberi smjer u kojem želiš postaviti brod
             self.racunalo.zauzeta_polja[3:5]=[''.join(self.racunalo.zauzeta_polja[3:5])]
             self.racunalo.zauzeta_polja[4:]=[''.join(self.racunalo.zauzeta_polja[4:])] 
 
-            print(self.racunalo.zauzeta_polja)
+            #print(self.racunalo.zauzeta_polja)
                 
             ponovi=False
-            for i in self.racunalo.zauzeta_polja[0:3]:
-                for j in self.racunalo.zauzeta_polja[3:]:
-                    print(i+j)
+            for i in self.racunalo.zauzeta_polja[0:2]:
+                for j in self.racunalo.zauzeta_polja[2:]:
+                    #print(i+j)
                     if (i==j):
                         del self.racunalo.zauzeta_polja[2:]
                         ponovi=True
@@ -486,15 +485,20 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                 if i==j:
                     self.racunalo.ploca[br]+="s"
             br+=1
-        self.prikaz.ispis_ploce(self.racunalo.ploca)
-        print("Srednji postavljen")
+        #self.prikaz.ispis_ploce(self.racunalo.ploca)
+        print("\n!!!\tPC je postavio srednji brod\t!!!\n")
             
 
     def postavljanje_velikog_broda_racunalo(self):
         ponovi=True
         neispravan_unos=False
         while(ponovi):
-            k=random.randint(65,69) # bug za 67     
+            strana=random.randint(0,1)
+            if (strana==0):  #lijevo
+                k=random.randint(65,66)
+            else:
+                k=random.randint(68,69)
+            #k=random.randint(65,69) # bug za 67     
             p=chr(k)
             
             pp=random.randint(1,5) #bug za 3         
@@ -568,7 +572,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                 self.racunalo.zauzeta_polja[7:9]=[''.join(self.racunalo.zauzeta_polja[7:9])]
                 self.racunalo.zauzeta_polja[8:]=[''.join(self.racunalo.zauzeta_polja[8:])]
 
-                print(self.racunalo.zauzeta_polja)
+                #print(self.racunalo.zauzeta_polja)
                 
                 ponovi=False
             for i in self.racunalo.zauzeta_polja[0:5]:
@@ -589,10 +593,8 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                 if i==j:
                     self.racunalo.ploca[br]+="v"
             br+=1
-        self.prikaz.ispis_ploce(self.racunalo.ploca)
-        print("*********************")
-        print("**Veliki postavljen**")
-        print("*********************")
+        #self.prikaz.ispis_ploce(self.racunalo.ploca)
+        print("\n!!!\tPC je postavio veliki brod\t!!!\n")
 
    
     def igranje(self):
@@ -624,10 +626,13 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                     self.prikaz.ispis_gadjanja(self.default_ploca,self.igracPrvi,self.gadjanaPolja1,self.pogodjenaPoljaC)
                 while shot_c == 1 and self.igracPrvi.brodoviSuPotopljeni() != 3 and self.igracDrugi.brodoviSuPotopljeni() != 3:
                     polje = input("Unesite polje za gadjati:")
+                    polje=polje.upper()
                     while polje not in self.default_ploca:
                             polje = input("\nPRAVILNO unesite polje za gadjati:")
+                            polje=polje.upper()
                     while polje in self.gadjanaPolja1:
                         polje = input("\nVec ste to polje gadjali! Unesite neko drugo polje:")
+                        polje=polje.upper()
                     self.gadjanaPolja1.append(polje)
                     poljeFC = [ string for string in self.igracDrugi.ploca if polje in string ]
                     for ele in poljeFC:
@@ -636,7 +641,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                             self.pogodjenaPoljaC.append(ele)
                             self.mali_r+=1
                             if self.mali_r ==2: 
-                                print('Potopili ste mali brod racunala!')
+                                print('!!!\tPotopili ste mali brod racunala\t!!!')
                                 self.igracDrugi.brodJePotopljen('mali')
                             self.prikaz.ispis_gadjanja(self.default_ploca,self.igracPrvi,self.gadjanaPolja1,self.pogodjenaPoljaC)
                         elif 's' in ele:
@@ -644,7 +649,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                             self.pogodjenaPoljaC.append(ele)
                             self.srednji_r+=1
                             if self.srednji_r ==3:
-                                print('Potopili ste srednji brod racunala!')
+                                print('!!!\tPotopili ste srednji brod racunala\t!!!!')
                                 self.igracDrugi.brodJePotopljen('srednji')
                             self.prikaz.ispis_gadjanja(self.default_ploca,self.igracPrvi,self.gadjanaPolja1,self.pogodjenaPoljaC)
                         elif 'v' in ele:
@@ -652,11 +657,11 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                             self.pogodjenaPoljaC.append(ele)
                             self.veliki_r+=1
                             if self.veliki_r ==4:
-                                print('Potopili ste veliki brod racunala!')
+                                print('!!!\tPotopili ste veliki brod racunala\n!!!')
                                 self.igracDrugi.brodJePotopljen('veliki')
                             self.prikaz.ispis_gadjanja(self.default_ploca,self.igracPrvi,self.gadjanaPolja1,self.pogodjenaPoljaC)
                         else:
-                            print('Nazalost ste promasili!')
+                            print('Nazalost, promasili ste!')
                             shot_c = 0
                             break
 
@@ -676,24 +681,24 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                             self.pogodjenaPoljaR.append(ele)
                             self.mali_c+=1
                             if self.mali_c ==2:
-                                print(igrac.ime+' je potopilo vas mali brod!')
+                                print(igrac.ime+' je potopio vas mali brod!')
                                 self.igracPrvi.brodJePotopljen('mali')
                         elif 's' in ele:
-                            print(igrac.ime+' je pogodilo vas srednji brod.')
+                            print(igrac.ime+' je pogodio vas srednji brod.')
                             self.pogodjenaPoljaR.append(ele)
                             self.srednji_c+=1
                             if self.srednji_c ==3:
-                                print(igrac.ime+' je potopilo vas srednji brod!')
+                                print(igrac.ime+' je potopio vas srednji brod!')
                                 self.igracPrvi.brodJePotopljen('srednji')
                         elif 'v' in ele:
-                            print(igrac.ime+' je pogodilo vas veliki brod.')
+                            print(igrac.ime+' je pogodio vas veliki brod.')
                             self.pogodjenaPoljaR.append(ele)
                             self.veliki_c+=1
                             if self.veliki_c ==4:
-                                print(igrac.ime+' je potopilo vas veliki brod!')
+                                print(igrac.ime+' je potopio vas veliki brod!')
                                 self.igracPrvi.brodJePotopljen('veliki')
                         else:
-                            print(igrac.ime + ' je promasilo!')
+                            print(igrac.ime + ' je promasio!')
                             self.prikaz.ispis_gadjanja(self.default_ploca,self.igracDrugi,self.gadjanaPolja2,self.pogodjenaPoljaR)
                             shot_r = 0
                             break
@@ -713,13 +718,10 @@ a zatim odaberi smjer u kojem želiš postaviti brod
 mali=Brod("mali")
 srednji=Brod("srednji")
 veliki=Brod("veliki")
-c=Covjek("Luka")
 r=Racunalo("PC")
-'''
-c.brodoviZaPostavljanje=(mali.naziv+str(mali.vrijednost()),srednji.naziv+str(srednji.vrijednost()),veliki.naziv+str(veliki.vrijednost()))
-r.brodoviZaPostavljanje=(mali.naziv+str(mali.vrijednost()),srednji.naziv+str(srednji.vrijednost()),veliki.naziv+str(veliki.vrijednost()))
-'''
-p=Prikaz(c.ime)
+p=Prikaz()
+ime=p.unesiIgraca()
+c=Covjek(ime)
 p.ispis_ploce(c.ploca)
 i=Igra(p,c,r)
 i.igranje()
