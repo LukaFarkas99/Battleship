@@ -207,6 +207,15 @@ a zatim odaberi smjer u kojem želiš postaviti brod
     def postavljanje_malog_broda(self):
         while(1):
             m_brod=input("Unesi 2 polja odvojena zarezom npr: >>A1,A2<< ili >>a1,b1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
+            unos=False
+            while(unos==False):
+                try:
+                    if (type(m_brod[0])is str and type(int(m_brod[1]))is int and type(m_brod[3])is str and type(int(m_brod[4]))is int):
+                        unos=True
+                except:
+                      m_brod=input("Unesi 2 polja odvojena zarezom npr: >>A1,A2<< ili >>a1,b1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
+           
+
             while(1):
                 if(len(m_brod)==5):
                     if(m_brod[2]==','):
@@ -221,8 +230,8 @@ a zatim odaberi smjer u kojem želiš postaviti brod
             pp=int(prvo_p[1])
             d=ord(drugo_p[0])
             dp=int(drugo_p[1])
-            print(p,d)
-            print(pp,dp)
+            #print(p,d)
+            #print(pp,dp)
             if(pp>=1 and dp >=1 and pp<=5 and dp<=5 and pp==dp):
                 if(p>=65 and d>=65 and p<=69 and d<=69 and((d+1)==p or (d-1)==p)):
                    print("Ispravno")
@@ -239,10 +248,10 @@ a zatim odaberi smjer u kojem želiš postaviti brod
         for el in m:
             if el not in self.covjek.zauzeta_polja.keys():
                 self.covjek.zauzeta_polja[el]=1
-                print(el)
+                #print(el)
                 
-        for i,j in self.covjek.zauzeta_polja.items():
-            print(i,j)
+        #for i,j in self.covjek.zauzeta_polja.items():
+            #print(i,j)
         br=0
         for i in self.covjek.ploca:
             for j in m:
@@ -253,6 +262,14 @@ a zatim odaberi smjer u kojem želiš postaviti brod
     def postavljanje_srednjeg_broda(self):
         while(1):
             s_brod=input("Unesi 3 polja odvojena zarezom npr: >>A1,A2,A3<< ili >>a1,b1,c1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
+            unos=False
+            while(unos==False):
+                try:
+                    if (type(s_brod[0])is str and type(int(s_brod[1]))is int and type(s_brod[3])is str and type(int(s_brod[4]))is int and type(s_brod[6])is str and type(int(s_brod[7])) is int):
+                        unos=True
+                except:
+                    s_brod=input("Unesi 3 polja odvojena zarezom npr: >>A1,A2,A3<< ili >>a1,b1,c1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
+           
             while(1):
                 if(len(s_brod)==8):
                     if(s_brod[2]==',' and s_brod[5]==',' ):
@@ -295,8 +312,8 @@ a zatim odaberi smjer u kojem želiš postaviti brod
             dp=int(drugo_p[1])
             t=ord(trece_p[0])
             tp=int(trece_p[1])
-            print(p,d,t)
-            print(pp,dp,tp)
+            #print(p,d,t)
+            #print(pp,dp,tp)
             if(pp>=1 and dp >=1 and pp<=5 and dp<=5 and pp==dp and tp>=1 and tp<=5 and tp==pp):
                 if(p>=65 and d>=65 and p<=69 and d<=69 and t>=65 and t<=69 and ((d+1)==p or (d-1)==p) and ((t+2)==p or (t-2)==p)):
                    print("Ispravno\n")
@@ -321,7 +338,16 @@ a zatim odaberi smjer u kojem želiš postaviti brod
         
     def postavljanje_velikog_broda(self):
         while(1):
+            
+            unos=False
             v_brod=input("Unesi 4 polja odvojena zarezom npr: >>A1,A2,A3,A4<< ili >>a1,b1,c1,d1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
+            while(unos==False):
+                try:
+                    if (type(v_brod[0])is str and type(int(v_brod[1]))is int and type(v_brod[3])is str and type(int(v_brod[4]))is int and type(v_brod[6])is str and type(int(v_brod[7])) is int and type(v_brod[9])is str and type(int(v_brod[10])) is int):
+                        unos=True
+                except:
+                     v_brod=input("Unesi 4 polja odvojena zarezom npr: >>A1,A2,A3,A4<< ili >>a1,b1,c1,d1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
+           
             while(1):
                 if(len(v_brod)==11):
                     if(v_brod[2]==',' and v_brod[5]==',' and v_brod[8]==','):
@@ -349,8 +375,8 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                             self.covjek.zauzeta_polja.pop(a)
                         if(len(self.covjek.zauzeta_polja)==9):
                             break
-                for i,j in self.covjek.zauzeta_polja.items():
-                    print(i,j)
+                #for i,j in self.covjek.zauzeta_polja.items():
+                    #print(i,j)
                 print("Popravi unos")
                 v_brod=input("Unesi 4 polja odvojena zarezom npr >>A1,A2,A3,A4<< ili >>a1,b1,c1,d1<< i pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
             v_brod=v_brod.upper()
@@ -367,8 +393,8 @@ a zatim odaberi smjer u kojem želiš postaviti brod
             tp=int(trece_p[1])
             c=ord(cetvrto_p[0])
             cp=int(cetvrto_p[1])
-            print(p,d,t,c)
-            print(pp,dp,tp,cp)
+            #print(p,d,t,c)
+            #print(pp,dp,tp,cp)
             if(pp>=1 and dp >=1 and pp<=5 and dp<=5 and pp==dp and tp>=1 and tp<=5 and tp==pp and cp>=1 and cp >=1 and cp==pp):
                 if(p>=65 and d>=65 and p<=69 and d<=69 and t>=65 and t<=69 and c>=65 and c<=69 and ((d+1)==p or (d-1)==p) and ((t+2)==p or (t-2)==p) and ((c+3)==p or(c-3)==p)):
                    print("Ispravno\n")
@@ -420,7 +446,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
         self.racunalo.zauzeta_polja+=(str(p)+str(pp))+(str(d)+str(dp))
         self.racunalo.zauzeta_polja[0:2]=[''.join(self.racunalo.zauzeta_polja[0:2])]
         self.racunalo.zauzeta_polja[1:]=[''.join(self.racunalo.zauzeta_polja[1:])]    
-        print(self.racunalo.zauzeta_polja)
+        #print(self.racunalo.zauzeta_polja)
         br=0
         for i in self.racunalo.ploca:
             for j in self.racunalo.zauzeta_polja:
@@ -725,3 +751,4 @@ c=Covjek(ime)
 p.ispis_ploce(c.ploca)
 i=Igra(p,c,r)
 i.igranje()
+
