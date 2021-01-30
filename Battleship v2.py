@@ -739,11 +739,13 @@ a zatim odaberi smjer u kojem želiš postaviti brod
         
                     
 #instanciranje brodova
-    
-mali=Brod("mali")
-srednji=Brod("srednji")
-veliki=Brod("veliki")
+def main():
+    mali=Brod("mali")
+    srednji=Brod("srednji")
+    veliki=Brod("veliki")
 
-p=Prikaz()
-i=Igra(p)
-i.igranje()
+    p=Prikaz()
+    i=Igra(p)
+    i.igranje()
+
+main()
