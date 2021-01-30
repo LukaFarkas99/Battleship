@@ -114,7 +114,7 @@ class Prikaz(object):
         while True:
             ime = input("Unesi igraca ")
             if ime.strip():
-                print("#"*50+"\n\n}")
+                print("#"*50+"\n\n")
                 return ime
                 
     def ispis_ploce(self,ploca):
@@ -626,6 +626,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
     def igranje(self):
         #self.prikaz.prikaziPocetakIgre()
         #self.postavljanje_brodova()
+        
         self.postavljanje_malog_broda()
         self.postavljanje_srednjeg_broda()
         self.postavljanje_velikog_broda()
@@ -683,7 +684,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                             self.pogodjenaPoljaC.append(ele)
                             self.veliki_r+=1
                             if self.veliki_r ==4:
-                                print('!!!\tPotopili ste veliki brod racunala\n!!!')
+                                print('!!!\tPotopili ste veliki brod racunala\t!!!')
                                 self.igracDrugi.brodJePotopljen('veliki')
                             self.prikaz.ispis_gadjanja(self.default_ploca,self.igracPrvi,self.gadjanaPolja1,self.pogodjenaPoljaC)
                         else:
@@ -751,4 +752,5 @@ c=Covjek(ime)
 p.ispis_ploce(c.ploca)
 i=Igra(p,c,r)
 i.igranje()
+
 
