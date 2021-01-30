@@ -748,4 +748,5 @@ def main():
     i=Igra(p)
     i.igranje()
 
-main()
+if __name__ == "__main__":
+    main()
