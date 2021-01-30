@@ -295,8 +295,8 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                             self.igracPrvi.zauzeta_polja.pop(a)
                         if(len(self.igracPrvi.zauzeta_polja)==5):
                             break
-                for i,j in self.igracPrvi.zauzeta_polja.items():
-                    print(i,j)            
+                #for i,j in self.igracPrvi.zauzeta_polja.items():
+                    #print(i,j)            
                 print("Popravi unos")
                 s_brod=input("Unesi 3 polja odvojena zarezom npr >>A1,A2,A3<< ili >>a1,b1,c1<< i pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
             s_brod=s_brod.upper()
