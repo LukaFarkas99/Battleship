@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T21:40:55.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="3WikOYwTOk52MQFPQ5we" version="14.2.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-01-30T20:03:09.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="ylRXVFDrqj0GV6_zctXP" version="14.2.9" type="github" pages="11">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -682,7 +682,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wdDGl5IIh6llIO7dVfId" name="Dijagram klasa pogleda Battleship">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="-69-ZK_c8R92ONLEp-Li-0" />
         <mxCell id="-69-ZK_c8R92ONLEp-Li-1" parent="-69-ZK_c8R92ONLEp-Li-0" />
@@ -701,7 +701,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hoG26-EPt1IKhTN66mYz" name="Dijagram klasa kontrolera Bettleship">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="DCYBu0IyIFyRCiDOBL3W-0" />
         <mxCell id="DCYBu0IyIFyRCiDOBL3W-1" parent="DCYBu0IyIFyRCiDOBL3W-0" />
@@ -720,6 +720,14 @@
         <mxCell id="L1AfmPnzN2GGj7E0IdTM-4" value="&amp;lt;&amp;lt;Controller&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DCYBu0IyIFyRCiDOBL3W-1" vertex="1">
           <mxGeometry x="260" y="110" width="40" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OTPrnWSzxECDAmlhsydy" name="Dijagram slijeda">
+    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="gUUUiugPLUjCLTpIyGCv-0" />
+        <mxCell id="gUUUiugPLUjCLTpIyGCv-1" parent="gUUUiugPLUjCLTpIyGCv-0" />
       </root>
     </mxGraphModel>
   </diagram>
