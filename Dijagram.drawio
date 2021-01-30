@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T21:28:04.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="HnHPK5MGWmaR2_EMDHPD" version="14.2.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-01-30T21:34:18.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="PflN5wr2kk-x-PVH2Ddu" version="14.2.9" type="github" pages="11">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -728,9 +728,6 @@
       <root>
         <mxCell id="gUUUiugPLUjCLTpIyGCv-0" />
         <mxCell id="gUUUiugPLUjCLTpIyGCv-1" parent="gUUUiugPLUjCLTpIyGCv-0" />
-        <mxCell id="gUUUiugPLUjCLTpIyGCv-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br/&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="gUUUiugPLUjCLTpIyGCv-1">
-          <mxGeometry x="210" y="600" width="160" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="gUUUiugPLUjCLTpIyGCv-12" value="r : Racunalo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="gUUUiugPLUjCLTpIyGCv-1">
           <mxGeometry x="220" y="40" width="100" height="440" as="geometry" />
         </mxCell>
