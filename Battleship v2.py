@@ -174,7 +174,7 @@ class Igra():
         self.brod=brod
         self.__igraci=[]
 
-    #samo treba nadodati metodu za unosenje imena za covjeka u prikaz
+   
     def unosIgraca(self):
         ime = self.prikaz.unesiIgraca()
         self.__igraci.append(Covjek(ime))
@@ -738,7 +738,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
         
         
                     
-#instanciranje brodova
+
 def main():
     mali=Brod("mali")
     srednji=Brod("srednji")
