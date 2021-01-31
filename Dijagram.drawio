@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T14:05:09.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="lQcNEn_olKVFPxEsDlXv" version="14.2.9" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-01-31T14:07:48.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="wzFNkl4JKEFMwnVCTgrp" version="14.2.9" type="github" pages="16">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -724,7 +724,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OTPrnWSzxECDAmlhsydy" name="Dijagram slijeda main">
-    <mxGraphModel dx="1065" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1504" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="gUUUiugPLUjCLTpIyGCv-0" />
         <mxCell id="gUUUiugPLUjCLTpIyGCv-1" parent="gUUUiugPLUjCLTpIyGCv-0" />
@@ -814,7 +814,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="m7GASyvXdzOT8o9c5oF8" name="Dijagram slijeda igranja">
-    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2130" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0OoH0YWo_VqkrefjRn84-0" />
         <mxCell id="0OoH0YWo_VqkrefjRn84-1" parent="0OoH0YWo_VqkrefjRn84-0" />
@@ -1028,10 +1028,10 @@
         <mxCell id="3uaSI_GqYMlJSCNRixZL-0" />
         <mxCell id="3uaSI_GqYMlJSCNRixZL-1" parent="3uaSI_GqYMlJSCNRixZL-0" />
         <mxCell id="0EVULovEAn56e-XDWLSM-0" value="main" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="3uaSI_GqYMlJSCNRixZL-1">
-          <mxGeometry x="110" y="10" width="100" height="830" as="geometry" />
+          <mxGeometry x="110" y="10" width="100" height="430" as="geometry" />
         </mxCell>
         <mxCell id="Ah30UT7vvxCNArdQOOib-0" value="i : Igra" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="3uaSI_GqYMlJSCNRixZL-1">
-          <mxGeometry x="250" y="10" width="100" height="440" as="geometry" />
+          <mxGeometry x="250" y="10" width="100" height="430" as="geometry" />
         </mxCell>
         <mxCell id="R5FG2bqrUfA2u_uE5DQJ-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Ah30UT7vvxCNArdQOOib-0">
           <mxGeometry x="45" y="80" width="10" height="310" as="geometry" />
