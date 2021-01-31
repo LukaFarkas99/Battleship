@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T17:23:08.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="p-M4nmtzNIFPHFCEoge1" version="14.2.9" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2021-01-31T17:23:25.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="j7VFFnBmKgafKGVD7pPI" version="14.2.9" type="github" pages="18">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1475,7 +1475,7 @@
         </mxCell>
         <mxCell id="ipTCfeJ14Sqye5q9BCd_-0" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="zC5pUHHgZU_AirRM8c_k-0" target="gzDAd7Ktx-vYMKmG7LxT-0">
           <mxGeometry x="-1" y="-32" width="60" relative="1" as="geometry">
-            <mxPoint x="50" y="80" as="sourcePoint" />
+            <mxPoint x="70" y="80" as="sourcePoint" />
             <mxPoint x="110" y="80" as="targetPoint" />
             <mxPoint x="-30" y="-22" as="offset" />
           </mxGeometry>
