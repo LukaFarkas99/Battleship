@@ -197,11 +197,6 @@ class Igra():
         for i in self.igracPrvi.brodoviZaPostavljanje:
             print(i[0:-1]+" brod zauzima " +i[-1]+" polja")
             
-        print('''Brodove postavi na način da uneseš početno polje npr [a5]
-a zatim odaberi smjer u kojem želiš postaviti brod
-[w-gore, s-dolje, d-desno, a-lijevo]''' )
-
-  
     def postavljanje_malog_broda(self):
         while(1):
             m_brod=input("Unesi 2 polja odvojena zarezom npr: >>A1,A2<< ili >>a1,b1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
@@ -256,7 +251,8 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                 if i==j:
                     self.igracPrvi.ploca[br]=i+"m"
             br+=1
-            
+        self.prikaz.ispis_ploce(self.igracPrvi.ploca)
+        
     def postavljanje_srednjeg_broda(self):
         while(1):
             s_brod=input("Unesi 3 polja odvojena zarezom npr: >>A1,A2,A3<< ili >>a1,b1,c1<< pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
@@ -412,6 +408,7 @@ a zatim odaberi smjer u kojem želiš postaviti brod
                 if i==j:
                     self.igracPrvi.ploca[br]+="v"
             br+=1
+            
         self.prikaz.ispis_ploce(self.igracPrvi.ploca)
 
 #postavljanej brodova za racunalo
