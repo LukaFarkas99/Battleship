@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T18:12:38.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="VAzH1mfMyCQ-9jkBEe-F" version="14.2.9" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2021-01-31T18:13:43.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="OwtyEPfxJfzLowavcY9w" version="14.2.9" type="github" pages="18">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1513,7 +1513,7 @@
         <mxCell id="ipTCfeJ14Sqye5q9BCd_-2" value="provjeraPobjednika()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BevL-cHhThJaDERoSleL-1">
           <mxGeometry x="190" y="80" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x1iflyLWbh4kr5437F_Y-0" value="proglasenjePobjednika(provjeraPobjednika())" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BevL-cHhThJaDERoSleL-1">
+        <mxCell id="x1iflyLWbh4kr5437F_Y-0" value="proglasenjePobjednika()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BevL-cHhThJaDERoSleL-1">
           <mxGeometry x="470" y="130" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ipTCfeJ14Sqye5q9BCd_-1" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=0.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="BevL-cHhThJaDERoSleL-1" source="xNFe3rEAHNN5i1xTglCI-0" target="gzDAd7Ktx-vYMKmG7LxT-1">
