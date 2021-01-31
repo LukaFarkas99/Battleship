@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T16:58:49.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="-jIYIzw8qhxGUFvzc4fY" version="14.2.9" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2021-01-31T17:10:24.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="zkIg4yN-8UtpAjccXc7J" version="14.2.9" type="github" pages="18">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1291,9 +1291,6 @@
         <mxCell id="Y4X5urq-InCG4GfjsBut-1" value="main()" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="kAG-70Qj-WeoetsB273x-1">
           <mxGeometry x="130" y="40" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Y4X5urq-InCG4GfjsBut-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="kAG-70Qj-WeoetsB273x-1">
-          <mxGeometry x="30" y="20" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="4jXE5iFrlbDEfJl91jqZ-0" value="Igra()" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="kAG-70Qj-WeoetsB273x-1">
           <mxGeometry x="370" y="40" width="100" height="890" as="geometry" />
         </mxCell>
@@ -1376,16 +1373,10 @@
         <mxCell id="NjmeuhCqOdeKZds9Bte3-16" value="dok Covjek pogadja uspjesno i nisu svi brodovi potopljeni" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kAG-70Qj-WeoetsB273x-1">
           <mxGeometry x="350" y="410" width="390" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NjmeuhCqOdeKZds9Bte3-18" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="kAG-70Qj-WeoetsB273x-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="50" y="490" as="sourcePoint" />
-            <mxPoint x="50" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NjmeuhCqOdeKZds9Bte3-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kAG-70Qj-WeoetsB273x-1">
           <mxGeometry x="615" y="430" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NjmeuhCqOdeKZds9Bte3-26" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="kAG-70Qj-WeoetsB273x-1" target="NjmeuhCqOdeKZds9Bte3-25">
+        <mxCell id="NjmeuhCqOdeKZds9Bte3-26" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=0.52;exitY=0.886;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="kAG-70Qj-WeoetsB273x-1" source="oZBUiCh45hP3rud5c5KD-0" target="NjmeuhCqOdeKZds9Bte3-25">
           <mxGeometry x="-0.9292" y="10" width="60" relative="1" as="geometry">
             <mxPoint x="50" y="455" as="sourcePoint" />
             <mxPoint x="110" y="440" as="targetPoint" />
@@ -1468,6 +1459,9 @@
         <mxCell id="yGeQcKeudovq-dCAwld2-14" value="ispis_gadnjanja" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kAG-70Qj-WeoetsB273x-1">
           <mxGeometry x="480" y="840" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="oZBUiCh45hP3rud5c5KD-0" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="kAG-70Qj-WeoetsB273x-1">
+          <mxGeometry x="30" y="40" width="20" height="470" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1476,6 +1470,9 @@
       <root>
         <mxCell id="BevL-cHhThJaDERoSleL-0" />
         <mxCell id="BevL-cHhThJaDERoSleL-1" parent="BevL-cHhThJaDERoSleL-0" />
+        <mxCell id="zC5pUHHgZU_AirRM8c_k-0" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BevL-cHhThJaDERoSleL-1">
+          <mxGeometry x="20" y="20" width="100" height="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
