@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T11:24:50.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="Yq8NvCciV_dCaoIb7Ln8" version="14.2.9" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-01-31T11:25:30.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="6QaQJf9hD0O_lV7R7pb7" version="14.2.9" type="github" pages="12">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -724,7 +724,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OTPrnWSzxECDAmlhsydy" name="Dijagram slijeda main">
-    <mxGraphModel dx="625" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="625" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="gUUUiugPLUjCLTpIyGCv-0" />
         <mxCell id="gUUUiugPLUjCLTpIyGCv-1" parent="gUUUiugPLUjCLTpIyGCv-0" />
@@ -998,17 +998,6 @@
         <mxCell id="orXQjXZBVHU3LgHzPSXH-40" value="10 : postavljanje_velikog_broda_racunalo()" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="0OoH0YWo_VqkrefjRn84-1">
           <mxGeometry x="270" y="570" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="orXQjXZBVHU3LgHzPSXH-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0OoH0YWo_VqkrefjRn84-1">
-          <mxGeometry x="580" y="640" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="orXQjXZBVHU3LgHzPSXH-42" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="0OoH0YWo_VqkrefjRn84-1" target="orXQjXZBVHU3LgHzPSXH-41">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="585" y="620" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="610" y="620" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="orXQjXZBVHU3LgHzPSXH-43" value="11 : gadanjeBrodova()" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="0OoH0YWo_VqkrefjRn84-1">
           <mxGeometry x="275" y="650" width="130" height="20" as="geometry" />
         </mxCell>
@@ -1024,8 +1013,8 @@
             <mxPoint x="-39" y="-31" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="orXQjXZBVHU3LgHzPSXH-46" value="12 : proglasenjePobjednika()" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="0OoH0YWo_VqkrefjRn84-1">
-          <mxGeometry x="270" y="700" width="170" height="20" as="geometry" />
+        <mxCell id="orXQjXZBVHU3LgHzPSXH-46" value="12 : proglasenjePobjednika(provjeraPobjednika())" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="0OoH0YWo_VqkrefjRn84-1">
+          <mxGeometry x="220" y="700" width="280" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
