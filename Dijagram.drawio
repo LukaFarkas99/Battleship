@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T16:57:42.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="_gykcu3iCOhWi-Axgc9g" version="14.2.9" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2021-01-31T16:58:49.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="-jIYIzw8qhxGUFvzc4fY" version="14.2.9" type="github" pages="18">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1283,7 +1283,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="i2nBYotP3pbAwP4vqlQx" name="Dijagram slijeda gađanja brodova">
+  <diagram id="i2nBYotP3pbAwP4vqlQx" name="Dijagram slijeda gađanjaBrodova()">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="kAG-70Qj-WeoetsB273x-0" />
@@ -1468,6 +1468,14 @@
         <mxCell id="yGeQcKeudovq-dCAwld2-14" value="ispis_gadnjanja" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kAG-70Qj-WeoetsB273x-1">
           <mxGeometry x="480" y="840" width="40" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="42_0QZHOpH1UUXMSVzYn" name="Dijagram slijeda proglasenjePobjednika()">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="BevL-cHhThJaDERoSleL-0" />
+        <mxCell id="BevL-cHhThJaDERoSleL-1" parent="BevL-cHhThJaDERoSleL-0" />
       </root>
     </mxGraphModel>
   </diagram>
