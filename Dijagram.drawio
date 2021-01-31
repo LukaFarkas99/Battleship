@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T11:25:30.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="6QaQJf9hD0O_lV7R7pb7" version="14.2.9" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-01-31T11:25:47.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="RL6RFic8Mqd_6MNRtUA9" version="14.2.9" type="github" pages="12">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -819,10 +819,10 @@
         <mxCell id="0OoH0YWo_VqkrefjRn84-0" />
         <mxCell id="0OoH0YWo_VqkrefjRn84-1" parent="0OoH0YWo_VqkrefjRn84-0" />
         <mxCell id="p4q-YDxefzMOoldTc9Ji-0" value="main" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="0OoH0YWo_VqkrefjRn84-1">
-          <mxGeometry x="20" y="10" width="100" height="1070" as="geometry" />
+          <mxGeometry x="20" y="10" width="100" height="830" as="geometry" />
         </mxCell>
         <mxCell id="E-uRrhYCauxDoNjFpNQx-0" value="i : Igra" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="0OoH0YWo_VqkrefjRn84-1">
-          <mxGeometry x="160" y="10" width="100" height="1070" as="geometry" />
+          <mxGeometry x="160" y="10" width="100" height="830" as="geometry" />
         </mxCell>
         <mxCell id="orXQjXZBVHU3LgHzPSXH-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E-uRrhYCauxDoNjFpNQx-0">
           <mxGeometry x="45" y="70" width="10" height="720" as="geometry" />
@@ -872,7 +872,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="orXQjXZBVHU3LgHzPSXH-0" value="p : Prikaz" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="0OoH0YWo_VqkrefjRn84-1">
-          <mxGeometry x="470" y="10" width="100" height="1070" as="geometry" />
+          <mxGeometry x="470" y="10" width="100" height="830" as="geometry" />
         </mxCell>
         <mxCell id="orXQjXZBVHU3LgHzPSXH-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="orXQjXZBVHU3LgHzPSXH-0">
           <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
@@ -1015,6 +1015,9 @@
         </mxCell>
         <mxCell id="orXQjXZBVHU3LgHzPSXH-46" value="12 : proglasenjePobjednika(provjeraPobjednika())" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="0OoH0YWo_VqkrefjRn84-1">
           <mxGeometry x="220" y="700" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QCU9umPUrcN0dj5TuDp--0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0OoH0YWo_VqkrefjRn84-1" source="p4q-YDxefzMOoldTc9Ji-0" target="p4q-YDxefzMOoldTc9Ji-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
