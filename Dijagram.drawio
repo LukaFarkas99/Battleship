@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T12:01:52.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="h4fADoMq5X8qXb5am8Wn" version="14.2.9" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2021-01-31T13:35:39.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="R9htCLYAIC0nfMA-UlvQ" version="14.2.9" type="github" pages="14">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1141,6 +1141,47 @@
       <root>
         <mxCell id="lNF3J9bxRRSuTiQ-ujxV-0" />
         <mxCell id="lNF3J9bxRRSuTiQ-ujxV-1" parent="lNF3J9bxRRSuTiQ-ujxV-0" />
+        <mxCell id="5RzEPUEK4XanC5fn1IdV-0" value="main()" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" vertex="1" parent="lNF3J9bxRRSuTiQ-ujxV-1">
+          <mxGeometry x="60" y="20" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLTQWqaXU2cey-cRZHfG-1" value="i : Igra" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="lNF3J9bxRRSuTiQ-ujxV-1">
+          <mxGeometry x="240" y="20" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLTQWqaXU2cey-cRZHfG-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZLTQWqaXU2cey-cRZHfG-1">
+          <mxGeometry x="40" y="70" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLTQWqaXU2cey-cRZHfG-3" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="ZLTQWqaXU2cey-cRZHfG-1" parent="lNF3J9bxRRSuTiQ-ujxV-1" source="5RzEPUEK4XanC5fn1IdV-0">
+          <mxGeometry x="-1" y="-41" relative="1" as="geometry">
+            <mxPoint x="120" y="90" as="sourcePoint" />
+            <mxPoint x="270" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="90" />
+            </Array>
+            <mxPoint x="-39" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLTQWqaXU2cey-cRZHfG-4" value="1 : postavljanje_malog_broda()" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="lNF3J9bxRRSuTiQ-ujxV-1">
+          <mxGeometry x="110" y="70" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLTQWqaXU2cey-cRZHfG-5" value="p : Prikaz" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="lNF3J9bxRRSuTiQ-ujxV-1">
+          <mxGeometry x="400" y="20" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bZoejlk3Glrewol-A5mI-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZLTQWqaXU2cey-cRZHfG-5">
+          <mxGeometry x="45" y="90" width="15" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bZoejlk3Glrewol-A5mI-1" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="ZLTQWqaXU2cey-cRZHfG-5" parent="lNF3J9bxRRSuTiQ-ujxV-1" source="ZLTQWqaXU2cey-cRZHfG-2">
+          <mxGeometry x="-1" y="-51" relative="1" as="geometry">
+            <mxPoint x="300" y="110" as="sourcePoint" />
+            <mxPoint x="449.5" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="110" />
+            </Array>
+            <mxPoint x="-50" y="-41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5Y8Gbyx7HCM-UTzg1II-0" value="2 : ispis_ploce()" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="lNF3J9bxRRSuTiQ-ujxV-1">
+          <mxGeometry x="330" y="90" width="100" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
