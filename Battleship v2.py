@@ -630,9 +630,9 @@ class Igra():
         self.postavljanje_srednjeg_broda_racunalo()
         self.postavljanje_velikog_broda_racunalo()
         while True:
+            self.gadjanjeBrodova()
             if self.igracPrvi.brodoviSuPotopljeni()  == 3 or self.igracDrugi.brodoviSuPotopljeni()  == 3:
                 break
-            self.gadjanjeBrodova() 
         self.prikaz.proglasenjePobjednika(self.provjeraPobjednika())
 
 
