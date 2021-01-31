@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T11:45:27.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="Fkj9LvC-lM6jngV7F05I" version="14.2.9" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-01-31T12:01:52.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="h4fADoMq5X8qXb5am8Wn" version="14.2.9" type="github" pages="14">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
     <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1133,6 +1133,14 @@
         <mxCell id="U3XlUbTj921acsDZLa3d-9" value="__init__()" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="3uaSI_GqYMlJSCNRixZL-1">
           <mxGeometry x="480" y="220" width="70" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FidwdN_BOR6ky8GgIBz0" name="Dijagram slijeda postavljanja malog broda">
+    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="lNF3J9bxRRSuTiQ-ujxV-0" />
+        <mxCell id="lNF3J9bxRRSuTiQ-ujxV-1" parent="lNF3J9bxRRSuTiQ-ujxV-0" />
       </root>
     </mxGraphModel>
   </diagram>
