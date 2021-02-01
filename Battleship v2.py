@@ -75,11 +75,9 @@ class Igrac(object):
         brod = self.__brodoviZaPostavljanje.pop(izbor)
         return brod
 
-    #nisam siguran ovdje za  da li stavit value il nesto drugo, ali uglavnom prima naziv potopljenog broda
     def brodJePotopljen(self, naziv):
         self.__brodoviPotopljeni.append(naziv)
 
-    #nadodajem metodu za provjeru
     def brodoviSuPotopljeni(self):
         return len(self.__brodoviPotopljeni)
         
