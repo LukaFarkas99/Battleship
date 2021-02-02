@@ -110,7 +110,7 @@ class Prikaz(object):
 
     def unesiIgraca(self):
         while True:
-            ime = input("Unesi igraca ")
+            ime = input("\nUnesi igraca ")
             if ime.strip():
                 print("#"*50+"\n\n")
                 return ime
@@ -193,7 +193,7 @@ class Igra():
         
         print("\n\nPostavi ove brodove na svoju ploču!!!\n")
         for i in self.igracPrvi.brodoviZaPostavljanje:
-            print(i[0:-1]+" brod zauzima " +i[-1]+" polja")
+            print(i[0:-1]+" brod zauzima " +i[-1]+" polja\n")
             
     def postavljanje_malog_broda(self):
         while(1):
@@ -211,7 +211,7 @@ class Igra():
                 if(len(m_brod)==5):
                     if(m_brod[2]==','):
                         break
-                print("Popravi unos")
+                print("Popravi unos\n")
                 m_brod=input("Unesi 2 polja odvojena zarezom npr >>A1,A2<< ili >>a1,b1<< i pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
             m_brod=m_brod.upper()
             m=m_brod.split(',')
@@ -291,7 +291,7 @@ class Igra():
                             break
                 #for i,j in self.igracPrvi.zauzeta_polja.items():
                     #print(i,j)            
-                print("Popravi unos")
+                print("Popravi unos\n")
                 s_brod=input("Unesi 3 polja odvojena zarezom npr >>A1,A2,A3<< ili >>a1,b1,c1<< i pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
             s_brod=s_brod.upper()
             s=s_brod.split(',')
@@ -314,7 +314,7 @@ class Igra():
                     print("Neispravno postavljanje brodova\n")
             else:
                 if(pp>=1 and dp >=1 and pp<=5 and dp<=5 and tp>=1 and tp<=5 and pp!=dp and pp!=tp and p==d and p==t and((dp+1)==pp or(dp-1)==pp)and((tp+2)==pp or(tp-2)==pp)):
-                    print("ispravno")
+                    print("Ispravno\n")
                     break
                 else:
                     print("Neispravno postavljanje brodova\n")
@@ -369,7 +369,7 @@ class Igra():
                             break
                 #for i,j in self.covjek.zauzeta_polja.items():
                     #print(i,j)
-                print("Popravi unos")
+                print("Popravi unos\n")
                 v_brod=input("Unesi 4 polja odvojena zarezom npr >>A1,A2,A3,A4<< ili >>a1,b1,c1,d1<< i pazi da brod bude postavljen vertikalno ili horizontalno i da poredak polja bude uzlazan kao u primjeru!!\n")
             v_brod=v_brod.upper()
             v=v_brod.split(',')
@@ -395,7 +395,7 @@ class Igra():
                     print("Neispravno postavljanje brodova\n")
             else:
                 if(pp>=1 and dp >=1 and pp<=5 and dp<=5 and tp>=1 and tp<=5 and cp>=1 and cp<=5 and pp!=dp and pp!=tp and pp!=cp and p==d and p==t and p==c and((dp+1==pp)or(dp-1==pp))and((tp+2==pp)or(tp-2==pp))and((cp+3==pp)or(cp-3==pp))):
-                    print("ispravno")
+                    print("Ispravno\n")
                     break
                 else:
                     print("Neispravno postavljanje brodova\n")
@@ -645,7 +645,7 @@ class Igra():
                     self.prikaz.ispis_ploce(igrac.ploca)
                     self.prikaz.ispis_gadjanja(self.default_ploca,self.igracPrvi,self.gadjanaPolja1,self.pogodjenaPoljaC)
                 while shot_c == 1 and self.igracPrvi.brodoviSuPotopljeni() != 3 and self.igracDrugi.brodoviSuPotopljeni() != 3:
-                    polje = input("Unesite polje za gadjati:")
+                    polje = input("Unesite polje za gadjati:\n")
                     polje=polje.upper()
                     while polje not in self.default_ploca:
                             polje = input("\nPRAVILNO unesite polje za gadjati:")
@@ -661,7 +661,7 @@ class Igra():
                             self.pogodjenaPoljaC.append(ele)
                             self.mali_r+=1
                             if self.mali_r ==2: 
-                                print('!!!\tPotopili ste mali brod racunala\t!!!')
+                                print('!!!\tPotopili ste mali brod racunala\t!!!\n')
                                 self.igracDrugi.brodJePotopljen('mali')
                             self.prikaz.ispis_gadjanja(self.default_ploca,self.igracPrvi,self.gadjanaPolja1,self.pogodjenaPoljaC)
                         elif 's' in ele:
@@ -669,7 +669,7 @@ class Igra():
                             self.pogodjenaPoljaC.append(ele)
                             self.srednji_r+=1
                             if self.srednji_r ==3:
-                                print('!!!\tPotopili ste srednji brod racunala\t!!!!')
+                                print('!!!\tPotopili ste srednji brod racunala\t!!!!\n')
                                 self.igracDrugi.brodJePotopljen('srednji')
                             self.prikaz.ispis_gadjanja(self.default_ploca,self.igracPrvi,self.gadjanaPolja1,self.pogodjenaPoljaC)
                         elif 'v' in ele:
@@ -677,7 +677,7 @@ class Igra():
                             self.pogodjenaPoljaC.append(ele)
                             self.veliki_r+=1
                             if self.veliki_r ==4:
-                                print('!!!\tPotopili ste veliki brod racunala\t!!!')
+                                print('!!!\tPotopili ste veliki brod racunala\t!!!\n')
                                 self.igracDrugi.brodJePotopljen('veliki')
                             self.prikaz.ispis_gadjanja(self.default_ploca,self.igracPrvi,self.gadjanaPolja1,self.pogodjenaPoljaC)
                         else:
