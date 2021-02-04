@@ -47,15 +47,9 @@ class Igrac(object):
     def brodoviZaPostavljanje(self,value):
         self.__brodoviZaPostavljanje = value
 
-    def imaBrodovaZaPostavljanje(self):
-        return len(self.__brodoviZaPostavljanje) > 0
 
     def __str__(self):
         return "Igrac " + self.ime
-
-    def brodZaPostaviti(self, izbor):
-        brod = self.__brodoviZaPostavljanje.pop(izbor)
-        return brod
 
     def brodJePotopljen(self, naziv):
         self.__brodoviPotopljeni.append(naziv)
@@ -83,8 +77,6 @@ class Racunalo(Igrac):
 
 class Prikaz(object):
 
-    def __init__(self): 
-        pass
     def prikaziPocetakIgre(self):
         print("#"*50)
         print("#"*19 +" BATTLESHIP " + "#"*19)
