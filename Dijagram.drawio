@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T17:10:01.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="KhQgR9eo8lj9iRe2Y6lH" version="14.2.9" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2021-02-04T19:28:05.502Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="VE1J5wkxQpkqUoiTRuAL" version="14.2.9" type="github" pages="18">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
-    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rs0sGWx0MR4FlPed3_t9" name="Activity: Igranje potapanja brodova">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="9JtUEKH2HQr9pTNVLQUo-0" />
         <mxCell id="9JtUEKH2HQr9pTNVLQUo-1" parent="9JtUEKH2HQr9pTNVLQUo-0" />
@@ -125,7 +125,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_mE0Gat9z1YqofICLdKb" name="Activity: Unos igrača">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ocSYI3KIZju1cx2uxM8I-0" />
         <mxCell id="ocSYI3KIZju1cx2uxM8I-1" parent="ocSYI3KIZju1cx2uxM8I-0" />
@@ -201,7 +201,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i42zV5t7z0DlAsn9zdxP" name="Activity: Raspoređivanje brodova">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="apERpVCSCKu2Zn8mHZ7R-0" />
         <mxCell id="apERpVCSCKu2Zn8mHZ7R-1" parent="apERpVCSCKu2Zn8mHZ7R-0" />
@@ -244,7 +244,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Vq4a_JPAsvXUs6rB26hr" name="Activity: Gađanje brodova">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="snWAESu3wQaQj8bQ94sy-0" />
         <mxCell id="snWAESu3wQaQj8bQ94sy-1" parent="snWAESu3wQaQj8bQ94sy-0" />
@@ -408,7 +408,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b9i66wF3J6dN92FWZ2AU" name="Activity: Proglašenje pobjednika">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="6dMO4nUxJzyiBfLNcqeT-0" />
         <mxCell id="6dMO4nUxJzyiBfLNcqeT-1" parent="6dMO4nUxJzyiBfLNcqeT-0" />
@@ -458,7 +458,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M3VvGb5RTov5laokA4RA" name="Dijagram klasa arhitekture Battleship">
-    <mxGraphModel dx="1278" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="dZpmQazALO4UfswGv-21-0" />
         <mxCell id="dZpmQazALO4UfswGv-21-1" parent="dZpmQazALO4UfswGv-21-0" />
@@ -554,7 +554,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TYmt-stsI4RWUwSDr7DX" name="Dijagram klasa modela Battleship">
-    <mxGraphModel dx="1278" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1767" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="F_FeLEc2oUxPUADSeGks-0" />
         <mxCell id="F_FeLEc2oUxPUADSeGks-1" parent="F_FeLEc2oUxPUADSeGks-0" />
@@ -583,7 +583,7 @@
         <mxCell id="43CZ3Kzv6pUHv9P-4Cqv-3" value="" style="group" parent="F_FeLEc2oUxPUADSeGks-1" vertex="1" connectable="0">
           <mxGeometry x="410" y="-40" width="160" height="310" as="geometry" />
         </mxCell>
-        <object label="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Brod&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;-&amp;nbsp;&lt;span&gt;&amp;nbsp;__brodovi_info={&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;mali&quot; : 2,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;srednji&quot;: 3,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;veliki&quot;: 4&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ naziv &amp;lt;&amp;lt;get&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __init__(self,naziv,postavljen=False,potopljen=False)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ vrijednost(self):&amp;nbsp;return Brod.__brodovi_info.get(self.__naziv)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __repr__(self):&amp;nbsp;return self.__class__.__name__ + &#39;: %s, Postavljen: %s&amp;nbsp; Potopljen: %s&#39; % (self.naziv, str( self.postavljen), str(self.potopljen))&lt;/p&gt;" __brodovi_info="statički atribut, privatni,{&#xa;                &quot;mali&quot; : 2,&#xa;                &quot;srednji&quot;: 3,&#xa;                &quot;veliki&quot;: 4&#xa;                }" __init__="__init__(self,naziv,postavljen=False,potopljen=False" naziv="property, get" vrijednost="return Brod.__brodovi_info.get(self.__naziv)" postavljen="property, get" potopljen="property, get" __repr__="return self.__class__.__name__ + &#39;: %s, Postavljen: %s  Potopljen: %s&#39; % (self.naziv, str( self.postavljen), str(self.potopljen))" postavljen.setter="" potopljen.setter="" id="t1XWKPEhunMlECxo7GDY-0">
+        <object label="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Brod&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;-&amp;nbsp;&lt;span&gt;&amp;nbsp;__brodovi_info={&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;mali&quot; : 2,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;srednji&quot;: 3,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;veliki&quot;: 4&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ naziv &amp;lt;&amp;lt;get&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __init__(self,naziv)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ vrijednost(self):&amp;nbsp;return Brod.__brodovi_info.get(self.__naziv)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __repr__(self):&amp;nbsp;return self.__class__.__name__ + &#39;: %s, Postavljen: %s&amp;nbsp; Potopljen: %s&#39; % (self.naziv, str( self.postavljen), str(self.potopljen))&lt;/p&gt;" __brodovi_info="statički atribut, privatni,{&#xa;                &quot;mali&quot; : 2,&#xa;                &quot;srednji&quot;: 3,&#xa;                &quot;veliki&quot;: 4&#xa;                }" __init__="__init__(self,naziv,postavljen=False,potopljen=False" naziv="property, get" vrijednost="return Brod.__brodovi_info.get(self.__naziv)" postavljen="property, get" potopljen="property, get" __repr__="return self.__class__.__name__ + &#39;: %s, Postavljen: %s  Potopljen: %s&#39; % (self.naziv, str( self.postavljen), str(self.potopljen))" postavljen.setter="" potopljen.setter="" id="t1XWKPEhunMlECxo7GDY-0">
           <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;allowArrows=1;" parent="43CZ3Kzv6pUHv9P-4Cqv-3" vertex="1">
             <mxGeometry y="40" width="159.99999999999997" height="270" as="geometry" />
           </mxCell>
