@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T19:42:07.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="p0KDNWpiLVT3X43iv2Zc" version="14.2.9" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2021-02-04T19:49:10.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="19POmZfv4ijzqRba00Iq" version="14.2.9" type="github" pages="18">
   <diagram id="_6fq170l_UNTLEr8yAsa" name="UseCase:Igranje potapanja brodova">
-    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -408,7 +408,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b9i66wF3J6dN92FWZ2AU" name="Activity: Proglašenje pobjednika">
-    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="6dMO4nUxJzyiBfLNcqeT-0" />
         <mxCell id="6dMO4nUxJzyiBfLNcqeT-1" parent="6dMO4nUxJzyiBfLNcqeT-0" />
@@ -458,7 +458,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M3VvGb5RTov5laokA4RA" name="Dijagram klasa arhitekture Battleship">
-    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="dZpmQazALO4UfswGv-21-0" />
         <mxCell id="dZpmQazALO4UfswGv-21-1" parent="dZpmQazALO4UfswGv-21-0" />
@@ -554,7 +554,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TYmt-stsI4RWUwSDr7DX" name="Dijagram klasa modela Battleship">
-    <mxGraphModel dx="1767" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="2212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="F_FeLEc2oUxPUADSeGks-0" />
         <mxCell id="F_FeLEc2oUxPUADSeGks-1" parent="F_FeLEc2oUxPUADSeGks-0" />
@@ -634,7 +634,7 @@
         <mxCell id="LxeR1w_McBqgbgY1zoax-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="LxeR1w_McBqgbgY1zoax-1" vertex="1">
           <mxGeometry y="26" width="180" height="8" as="geometry" />
         </mxCell>
-        <object label="+__init__(self, ime)&#xa;+__str__(self)&#xa;&lt;&lt;get&gt;&gt;ime(self)&#xa;&lt;&lt;get,set&gt;&gt;brodoviZaPostavljanje(self)&#xa;+imaBrodovaZaPostavljanje(self)&#xa;+brodZaPostaviti(self, izbor)&#xa;+brodJePotopljen(self, naziv)&#xa;+brodoviSuPotopljeni(self)" __init__="__init__(self, ime)" __str__="__str__(self)" imaBrodovaZaPostavljanje="imaBrodovaZaPostavljanje(self)" brodZaPostaviti="brodZaPostaviti(self, izbor)" brodJePotopljen="brodJePotopljen(self, naziv)" ime="property, get" brodoviZaPostavljanje="property, get, set" brodoviSuPotopljeni="brodoviSuPotopljeni(self)" id="LxeR1w_McBqgbgY1zoax-4">
+        <object label="+__init__(self, ime)&#xa;+__str__(self)&#xa;&lt;&lt;get&gt;&gt;ime(self)&#xa;&lt;&lt;get,set&gt;&gt;brodoviZaPostavljanje(self)&#xa;+brodJePotopljen(self, naziv)&#xa;+brodoviSuPotopljeni(self)" __init__="__init__(self, ime)" __str__="__str__(self)" brodJePotopljen="brodJePotopljen(self, naziv)" ime="property, get" brodoviZaPostavljanje="property, get, set" brodoviSuPotopljeni="brodoviSuPotopljeni(self)" id="LxeR1w_McBqgbgY1zoax-4">
           <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LxeR1w_McBqgbgY1zoax-1" vertex="1">
             <mxGeometry y="34" width="180" height="126" as="geometry" />
           </mxCell>
@@ -646,7 +646,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wdDGl5IIh6llIO7dVfId" name="Dijagram klasa pogleda Battleship">
-    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="-69-ZK_c8R92ONLEp-Li-0" />
         <mxCell id="-69-ZK_c8R92ONLEp-Li-1" parent="-69-ZK_c8R92ONLEp-Li-0" />
@@ -665,7 +665,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hoG26-EPt1IKhTN66mYz" name="Dijagram klasa kontrolera Bettleship">
-    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="DCYBu0IyIFyRCiDOBL3W-0" />
         <mxCell id="DCYBu0IyIFyRCiDOBL3W-1" parent="DCYBu0IyIFyRCiDOBL3W-0" />
@@ -688,7 +688,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OTPrnWSzxECDAmlhsydy" name="Dijagram slijeda main">
-    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="gUUUiugPLUjCLTpIyGCv-0" />
         <mxCell id="gUUUiugPLUjCLTpIyGCv-1" parent="gUUUiugPLUjCLTpIyGCv-0" />
@@ -778,7 +778,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="m7GASyvXdzOT8o9c5oF8" name="Dijagram slijeda igranja">
-    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0OoH0YWo_VqkrefjRn84-0" />
         <mxCell id="0OoH0YWo_VqkrefjRn84-1" parent="0OoH0YWo_VqkrefjRn84-0" />
@@ -987,7 +987,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0u0qvoekGhq3N4hSfy47" name="Dijagram slijeda unos igraca">
-    <mxGraphModel dx="1502" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="3uaSI_GqYMlJSCNRixZL-0" />
         <mxCell id="3uaSI_GqYMlJSCNRixZL-1" parent="3uaSI_GqYMlJSCNRixZL-0" />
